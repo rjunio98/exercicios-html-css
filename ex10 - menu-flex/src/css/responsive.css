@@ -1,0 +1,27 @@
+@media(max-width: 790px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-onebitcode {
+        padding-bottom: 20px;
+    }
+
+    .nav-bar ul {
+        display: block;
+        width: 100%;
+    }
+
+    .nav-bar a {
+        display: block;
+        line-height: 10px;
+        margin-bottom: 20px;
+    }
+
+    .nav-bar a:hover {
+        border-color: rgba(167, 20, 20, 0.849);
+    }
+}

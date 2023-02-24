@@ -1,0 +1,43 @@
+.header {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-rock {
+    width: 40px;
+    padding: 5px;
+}
+
+.logo-onebitcode {
+    width: 200px;
+}
+
+.logo-rock, .logo-onebitcode {
+    margin: 15px;
+}
+
+.nav-bar ul {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffff;
+    border: 2px solid #ffffffb2;
+    border-radius: 10px;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.nav-bar a:hover {
+    border-color: rgb(190, 50, 50);
+}
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div>
+            <h2>Hire Us Now</h2>
+            <p>Leave a message to resquest one of our services and we will get back to you as soon as possible</p>
+        </div>
+        <form action="hireus">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">- Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="spaceship">Spaceship:</label>
+                <select name="spaceship" id="spaceship">
+                    <option value="falcon9">Falcon9</option>
+                    <option value="falconheavy">Falcon Heavy</option>
+                </select> 
+                <label for="service">- Type of Service:</label>
+                <input type="search" id="service" name="service" list="services">
+                <datalist id="services">
+                    <option value="Nam quis nulla.Intereger malesuada"></option>
+                    <option value="In in enim a arcu imperdiet malesuada"></option>
+                    <option value="Sed vel lectus. Donec odio urna"></option>
+                </datalist>   
+            </div>
+
+            <br> <br>
+
+            <div>
+                <input type="submit" name="" value="Send Message">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
