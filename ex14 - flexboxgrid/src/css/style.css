@@ -1,0 +1,152 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    min-height: 40px;
+    background: #292929;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 8px 15px;
+}
+
+.logonavbar {
+    width: 180px;
+}
+
+.headerbtngroup {
+    display: flex;
+    gap: 15px;
+}
+
+.navbtn {
+    font-size: 16px;
+    padding: 6px;
+    background: transparent;
+    border: 2px solid transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.navbtn:hover {
+    border-bottom: 2px solid black;
+}
+
+.sectiontitle {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sectiondesc {
+    text-align: center;
+    color: #383838;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: "maincontent sidebardcontent";
+    padding: 20px;
+    flex: 1 0 auto;
+}
+
+.maincontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    grid-area: maincontent;
+}
+
+.categorycard {
+    width: 280px;
+    height: 380px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.maincardimg {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.categorycard:hover {
+    border-color: black;
+}
+
+.maincategorycardtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+}
+
+.maincategorydesc {
+    padding: 6px;
+}
+
+.sidebarcontent {
+    background: #383838;
+    color: white;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    grid-area: sidebardcontent;
+    gap: 20px;
+}
+
+.sidebarcard {
+    width: 75%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.sidebardcardimg {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sidebarcardtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.sidebarcard:hover {
+    background: gainsboro;
+}
+
+.footer {
+    width: 100%;
+    min-height: 100%;
+    background: #292929;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 15px;
+}
+
+.logofooter {
+    width: 180px;
+}
+
+.footerancho {
+    color: white;
+    text-decoration: none;
+}
